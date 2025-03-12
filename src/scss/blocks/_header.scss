@@ -1,0 +1,22 @@
+.header {
+    padding: 16px 0 18px;
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.header__logo {
+    flex-shrink: 0;
+}
+
+.header__nav {}
+
+.header__account {}
+
+.account {}
+
+.header__nav-btn {
+    display: none;
+}
