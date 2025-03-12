@@ -1,0 +1,19 @@
+.main {
+    height: 600px;
+    background-color: #999;
+    background-image: url('./../../img/hero/hero.jpg');
+    background-position: center center;
+    /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include mediaBg() {
+        background-image: url('./../../img/hero/hero@2x.jpg');
+    }
+    .container {
+        height: 100%;
+    }
+}
+
+.main__content {}
+
+.main__title {}
